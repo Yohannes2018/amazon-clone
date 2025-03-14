@@ -19,3 +19,4 @@ function Catagory() {
 }
 
 export default Catagory
+// catagoryFullinfos.js
