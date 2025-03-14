@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .fixed {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
+.header__container {
+    background-color: #131921;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    height: 70px;
+  
+}
+.logo__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   max-width: 250px;
+}
+.logo__container img {
+    width: 80%;
+    padding-top: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.delivery{
+    display: flex; 
+   align-items: center;
+   justify-content: center;
+   gap: 3px;
+   padding: 5px;
+   font-weight: bold;
+}
+.delivery p {
+    font-size: 10px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    flex: 1;
+}
+.search select,
+.search input {
+    padding: 10px;
+    font-weight: bold;
+    outline: 1px solid white;
+}
+.search select {
+   border: none;
+   
+}
+.search input{
+    border:  1px solid white;
+    width: 100%;
+   margin-right: -2px;
+}
+.search svg{
+    padding: 7px;
+    background: #febd69;
+    color: black;
+}
+.search svg:hover{
+    background: #ff9900;
+    cursor: pointer;
+}
+.search:focus-within{
+    border: 2px solid  rgb (255, 161, 173);
+}
+.order__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     max-width: 450px;
+    gap: 10px;
+   
+}
+.order__container p{
+    font-size: 12px;
+}
+.order__container a {
+    text-decoration: none;
+    color: white;
+}
+.language{
+    width: 100px;
+    display: flex;
+    padding: 10px;
+   
+}
+.language select{
+background-color: #1a1a1a;
+    border: none;
+   color: white;
+}
+.language img {
+    width: 40%;
+ }
+ .cart{
+    position: relative;
+ }
+ .cart span{
+    position: absolute;
+    font-weight: bold;
+    top: -6px ;
+    font-size: 20px;
+    background-color: #1a1a1a;
+    left: 14px;
+    color: orange;
+}
+.order__container a:hover{
+    color: #ff9900;
+}
+.delivery:hover{
+    cursor: pointer;
+}
+.logo__container a:hover{
+    cursor: pointer;
+}
+.lower__container ul li:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.lower__container{
+    background-color: #232f3e;
+    color: white;
+}
+.lower__container ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    }
+    .lower__container ul li{
+        padding: 8px;
+        font-size: 14px;
+    }
+    .lower__container ul li:first-child{
+       display: flex;
+       gap: 2px;
+       align-items: center;
+    }
