@@ -22,5 +22,5 @@ function CarouselEffect() {
     </div>
   )
 }
-
+// cerosel effect
 export default CarouselEffect
